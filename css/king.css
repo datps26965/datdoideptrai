@@ -1,0 +1,78 @@
+.container{
+    background-color: aquamarine;
+    width: 980px;
+    margin: 0 auto;
+}
+nar .menu ul{
+    height: 35px;
+    background: blue;
+}
+nar .menu ul li{
+    float: left;
+    line-height: 35px;
+    padding: 0 60px;
+}
+nar .menu ul li a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+nar .menu p{
+    font-size: larger;
+}
+nar .menu h1{
+    color: red;
+}
+nar .box_process h1{
+    color: red;
+    font-size: xx-large;
+
+}
+nar .box_process h2{
+    color: red;
+}
+.form{
+    background: rgb(30, 30,40);
+    text-align: center;
+    margin-top: 40px;
+    max-width: 420px;
+    margin: 50px auto;
+}
+#form1 input[type=text]{
+    color: white;
+    font-family: sans-serif;
+    font-weight: 500px;
+    font-size: 18px;
+    border-radius: 5px;
+    line-height: 22px;
+    background-color: transparent;
+    border: 2px solid #cc6666;
+    transition: all 0.3s;
+    padding: 13px;
+    margin-bottom: 15px;
+    width: 100%;
+    box-sizing: border-box;
+    outline: 0px;
+}
+#form1 #fcontent{
+    height: 100px;
+}
+#form1 input[type=sumbit]{
+    color: white;
+    font-family: sans-serif;
+    font-weight: 500px;
+    font-size: 18px;
+    border-radius: 5px;
+    line-height: 22px;
+    background-color: #cc6666;
+    border: 2px solid #cc6666;
+    transition: all 0.3s;
+    padding: 13px;
+    margin-bottom: 15px;
+    width: 100%;
+    box-sizing: border-box;
+    outline: 0;
+}
+#form1 input[type="sumbit"]:hover{
+    background: #cc4949;
+}
